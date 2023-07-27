@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    background-color: gray;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#greeting{
+    max-width: 768px;
+    background-color: purple;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 3px black;
+    color: white;
+    text-align: center;
+}
+
+#greeting h1{
+    font-size: 3rem;
+    margin-top: 0;
+}
+
+#greeting h2{
+    margin-top: 0;
+}
+
+#greeting button{
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: goldenrod;
+    box-shadow: 1px 1px 1px black;
+    cursor: pointer;
+}
